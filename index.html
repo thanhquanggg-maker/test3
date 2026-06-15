@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngoc Ha</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+    <div id="bg-image">
+        <img src="image/avt2.jpg" style=" position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;" alt="">
+    </div>
+    <audio id="bg-music" loop>
+        <source src="video/videoplayback.mp3" type="audio/mp3">
+    </audio>
+    <div class="content">
+        <div class="profile-card">
+            <img src="image/avt.jpg" alt="Avatar" class="avatar">
+            <p class="status">
+                🟢 Online
+            </p>
+            <h2>Đức Khiêm</h2>
+            <button id="music-btn" onclick="toggleMusic()">
+                🎵 Play Music
+            </button>
+
+            <div id="clock"></div>
+
+            <div class="social">
+                <a href="https://www.facebook.com/share/18dEMGJ19M/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+
+                <a href="https://tiktok.com/@nh17122010" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://www.instagram.com/ngocha171220/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
